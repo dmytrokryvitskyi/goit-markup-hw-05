@@ -3,7 +3,7 @@
   --highlight-color: #2196f3;
   --white-color: #ffffff;
   --main-text-color: #757575;
-  --transition-origin: 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-origin: 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Загальна стилізація сторінки*/
@@ -237,6 +237,8 @@ img {
   padding: 10px 32px;
   min-width: 200px;
   min-height: 50px;
+
+  transition: var(--transition-origin);
 }
 
 .hero-button:hover,
@@ -426,6 +428,8 @@ margin-right: 10px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-color: var(--white-color);
+
+  transition: var(--transition-origin);
 } 
 
 .socials-link:hover,
@@ -485,10 +489,14 @@ margin-right: 10px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  transition: var(--transition-origin);
 }
 
 .clients-icon{
   fill: #AFB1B8 ;
+
+  transition: var(--transition-origin);
 }
 
 .clients-link:hover,
@@ -560,6 +568,8 @@ margin-right: 10px;
   letter-spacing: 0.03em;
   color: var(--white-color);
   text-decoration: none;
+
+  transition: var(--transition-origin);
 }
 
 .footer-item-map:hover,
@@ -605,6 +615,8 @@ margin-right: 10px;
   border-radius: 50%;
   width: 44px;
   height: 44px;
+
+  transition: var(--transition-origin);
 }
               
 .footer-item-link:hover,
@@ -657,6 +669,8 @@ margin-right: 10px;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+
+  transition: var(--transition-origin);
 }
 
 .button:hover,
@@ -692,6 +706,8 @@ margin-right: 10px;
 .examples-item-link {
   display: block;
   text-decoration: none;
+
+  transition: var(--transition-origin);
 }
 
 .examples-item-link:hover,
