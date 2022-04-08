@@ -740,8 +740,44 @@ margin-right: 10px;
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.examples-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.example-overlay-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 63px 24px;
+  
+
+  transform: translateY(100%);
+  transition: transform var(--transition-origin);
+
+  background-color: var(--highlight-color);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.examples-item-link:hover .example-overlay-text,
+.examples-item-link:focus .example-overlay-text {
+  transform: translateY(0);
+}
+
 .example-img {
   width: 370px;
+  height: auto;
 }
 
 .example-title {
