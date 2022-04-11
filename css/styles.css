@@ -472,13 +472,10 @@ margin-right: 10px;
   fill: var(--white-color);
 }
 
-.socials-link:hover .socials-icon{
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon{
   fill: var(--white-color);
 }
-
-.socials-link:focus .socials-icon {
-  fill: var(--white-color);
-  }
 
 /*Стилізвція Постоянные клиенты */
 
